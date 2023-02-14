@@ -4,8 +4,9 @@ import { reactOutputTarget as react } from '@stencil/react-output-target';
 export const config: Config = {
   namespace: 'component-lib',
   outputTargets: [
+    // @ts-ignore
     react({
-      componentCorePackage: 'component-lib-react',
+      componentCorePackage: 'component-lib',
       proxiesFile: '../component-lib-react/src/components/stencil-generated/index.ts',
       includeDefineCustomElements: true,
     }),
