@@ -1,4 +1,5 @@
 import '../styles/globals.css'
+import Stencil from '~/components/Stencil';
 
 export default function RootLayout({
   children,
@@ -13,6 +14,8 @@ export default function RootLayout({
       */}
       <head />
       <body>{children}</body>
+
+    <Stencil />
     </html>
   )
 }

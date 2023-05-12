@@ -15,9 +15,10 @@
     "@types/react-dom": "18.0.10",
     "component-lib": "^0.0.1",
     "component-lib-react": "^0.0.1",
-    "next": "13.1.6",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
+    "eslint-config-next": "^13.4.2",
+    "next": "^13.4.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "typescript": "4.9.5"
   }
 }
