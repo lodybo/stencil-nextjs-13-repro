@@ -1,5 +1,6 @@
 "use client";
 
+import 'client-only';
 import { MyButton } from 'component-lib-react';
 import styles from './ButtonRow.module.css';
 
